@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc578697-5d49-4fa9-9a31-fd40bbd11b56" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/canvas.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/canvas.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="com.codota.intellij.common.configuration.CodotaConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -56,7 +62,7 @@
       <updated>1602511869352</updated>
       <workItem from="1602511871593" duration="2230000" />
       <workItem from="1602514470852" duration="39000" />
-      <workItem from="1602514518613" duration="10351000" />
+      <workItem from="1602514518613" duration="15141000" />
     </task>
     <task id="LOCAL-00001" summary="basic stuff done, working on input values.">
       <created>1602516113217</created>
@@ -100,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602523260490</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="showing li, removing old list, preparing forr production configuration for github pages">
+      <created>1602531098804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602531098804</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +144,8 @@
     <MESSAGE value="basic request done" />
     <MESSAGE value="improved animation of search" />
     <MESSAGE value="request timer set for avoid request spam on type, fixed bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="request timer set for avoid request spam on type, fixed bugs" />
+    <MESSAGE value="showing li, removing old list, preparing forr production configuration for github pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="showing li, removing old list, preparing forr production configuration for github pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
