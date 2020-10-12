@@ -2,24 +2,24 @@ body {
   background-color: #23272a;
   color: #fff;
   margin: 0;
-}
 
-#content {
-  position: absolute;
-  height: 50px;
-  width: 300px;
-  margin-left: 170px;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+  #content {
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    margin-left: 170px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
 }
 
 .moveRight {
-  left: 55%!important;
+  left: 55% !important;
   transition: left 0.5s;
 }
 
@@ -47,9 +47,9 @@ input {
   font-weight: 400;
   outline: 0;
   -webkit-transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out,
-  padding 0.2s;
+    padding 0.2s;
   transition: width 0.4s ease-in-out, border-radius 0.8s ease-in-out,
-  padding 0.2s;
+    padding 0.2s;
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
   -webkit-transform: translate(-100%, -50%);
@@ -141,9 +141,9 @@ input {
   font-weight: 400;
   outline: 0;
   -webkit-transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out,
-  padding 0.2s;
+    padding 0.2s;
   transition: width 0.4s ease-in-out, border-radius 0.4s ease-in-out,
-  padding 0.2s;
+    padding 0.2s;
   -webkit-transition-delay: 0.4s, 0s, 0.4s;
   transition-delay: 0.4s, 0s, 0.4s;
   -webkit-transform: translate(-100%, -50%);

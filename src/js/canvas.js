@@ -66,6 +66,7 @@ function animate() {
   c.clearRect(0, 0, canvas.width, canvas.height);
 
   c.fillStyle = "orange";
+  c.font = `15px sans-serif`;
   c.fillText("Gio's WTW", mouse.x + 10, mouse.y + 10);
   // objects.forEach(object => {
   //  object.update()

@@ -38,7 +38,7 @@ const searchMovie = (query) => {
 let requestTimer;
 const listenInput = input.addEventListener("input", (e) => {
   clearTimeout(requestTimer);
-  requestTimer = setTimeout(() => searchMovie(e.target.value), 500);
+  requestTimer = setTimeout(() => searchMovie(e.target.value), 300);
 });
 
 module.exports = { input, searchMovie, listenInput };
