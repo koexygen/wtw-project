@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc578697-5d49-4fa9-9a31-fd40bbd11b56" name="Default Changelist" comment="first">
+    <list default="true" id="07a62dde-9250-4455-8800-9e34621f602a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/prod/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/canvas.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/canvas.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prod/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +13,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1imTfFd8Jtj6LEXkrrVf9xZHUgX" />
+  <component name="ProjectId" id="1inJTc2aEvoB0DwdbwgQgpPoyiV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,89 +31,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="10.17.39" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cc578697-5d49-4fa9-9a31-fd40bbd11b56" name="Default Changelist" comment="" />
-      <created>1602511869352</created>
+      <changelist id="07a62dde-9250-4455-8800-9e34621f602a" name="Default Changelist" comment="" />
+      <created>1602537431949</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602511869352</updated>
-      <workItem from="1602511871593" duration="2230000" />
-      <workItem from="1602514470852" duration="39000" />
-      <workItem from="1602514518613" duration="15790000" />
+      <updated>1602537431949</updated>
+      <workItem from="1602537434702" duration="580000" />
     </task>
-    <task id="LOCAL-00001" summary="basic stuff done, working on input values.">
-      <created>1602516113217</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1602516113217</updated>
-    </task>
-    <task id="LOCAL-00002" summary="basic stuff done, working on input values.">
-      <created>1602517611034</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1602517611034</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added README.MD">
-      <created>1602517684001</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1602517684001</updated>
-    </task>
-    <task id="LOCAL-00004" summary="basic request done">
-      <created>1602520259154</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1602520259154</updated>
-    </task>
-    <task id="LOCAL-00005" summary="improved animation of search">
-      <created>1602521594938</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1602521594938</updated>
-    </task>
-    <task id="LOCAL-00006" summary="request timer set for avoid request spam on type, fixed bugs">
-      <created>1602523260490</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1602523260490</updated>
-    </task>
-    <task id="LOCAL-00007" summary="showing li, removing old list, preparing forr production configuration for github pages">
-      <created>1602531098804</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1602531098804</updated>
-    </task>
-    <task id="LOCAL-00008" summary="prepared configuration for production">
-      <created>1602536286881</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1602536286881</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,30 +57,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first" />
-    <MESSAGE value="basic stuff done, working on input values." />
-    <MESSAGE value="added README.MD" />
-    <MESSAGE value="basic request done" />
-    <MESSAGE value="improved animation of search" />
-    <MESSAGE value="request timer set for avoid request spam on type, fixed bugs" />
-    <MESSAGE value="showing li, removing old list, preparing forr production configuration for github pages" />
-    <MESSAGE value="prepared configuration for production" />
-    <MESSAGE value="going for production" />
-    <option name="LAST_COMMIT_MESSAGE" value="going for production" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

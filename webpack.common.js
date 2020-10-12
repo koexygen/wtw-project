@@ -16,6 +16,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: "WTW - What to Watch",
+      favicon: "favicon.png",
       template: "src/index.html",
     }),
   ],

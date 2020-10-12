@@ -7,7 +7,9 @@
     "dev": "webpack --config webpack.config.js",
     "start": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "git push origin gh-pages `git subtree split --prefix dist master`:gh-pages --force"
+
   },
   "keywords": [],
   "author": "",
