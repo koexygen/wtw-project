@@ -107,9 +107,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
 
-_search__WEBPACK_IMPORTED_MODULE_1___default.a.searchMovie().then(function (resp) {
-  return console.log(resp);
-});
 var canvas = document.querySelector("canvas");
 var c = canvas.getContext("2d");
 canvas.width = innerWidth;
@@ -193,10 +190,12 @@ animate();
 
 var input = document.getElementById("search-input");
 var searchBtn = document.getElementById("search-btn");
+var searchContent = document.getElementById("content");
 
 var expand = function expand() {
   searchBtn.classList.toggle("close");
   input.classList.toggle("square");
+  searchContent.classList.toggle("moveRight");
 };
 
 searchBtn.addEventListener("click", expand);

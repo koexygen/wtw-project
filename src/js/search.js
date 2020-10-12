@@ -1,9 +1,11 @@
 const input = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
+const searchContent = document.getElementById("content");
 
 const expand = () => {
   searchBtn.classList.toggle("close");
   input.classList.toggle("square");
+  searchContent.classList.toggle("moveRight");
 };
 
 searchBtn.addEventListener("click", expand);
