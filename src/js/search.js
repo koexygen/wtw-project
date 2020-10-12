@@ -8,22 +8,22 @@ const expand = () => {
   searchContent.classList.toggle("moveRight");
 };
 
+// Fetch Requests
 searchBtn.addEventListener("click", expand);
-
-const getValue = () => {
-  return input.addEventListener("input", updateValue);
-};
-
-const updateValue = (e) => e.target.value;
-
 const apiKey = "afc2df6ed2b105665b061dcc22c09716";
-const query = "deadpool";
-const url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${query}`;
+const url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=`;
 
-const searchMovie = () => {
-  return fetch(url)
+const searchMovie = (query) => {
+  return fetch(url + query)
     .then((response) => response.json())
-    .then((data) => data);
+    .then((data) => console.log(data));
 };
 
-module.exports = { input, getValue, searchMovie };
+// const updateValue = (e) => setTimeout(searchMovie, 500);
+let requestTimer;
+input.addEventListener("input", (e) => {
+  clearTimeout(requestTimer);
+  requestTimer = setTimeout(() => searchMovie(e.target.value), 500);
+});
+
+module.exports = { input, searchMovie };

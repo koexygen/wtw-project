@@ -196,33 +196,31 @@ var expand = function expand() {
   searchBtn.classList.toggle("close");
   input.classList.toggle("square");
   searchContent.classList.toggle("moveRight");
-};
+}; // Fetch Requests
+
 
 searchBtn.addEventListener("click", expand);
-
-var getValue = function getValue() {
-  return input.addEventListener("input", updateValue);
-};
-
-var updateValue = function updateValue(e) {
-  return e.target.value;
-};
-
 var apiKey = "afc2df6ed2b105665b061dcc22c09716";
-var query = "deadpool";
-var url = "https://api.themoviedb.org/3/search/movie?api_key=".concat(apiKey, "&query=").concat(query);
+var url = "https://api.themoviedb.org/3/search/movie?api_key=".concat(apiKey, "&query=");
 
-var searchMovie = function searchMovie() {
-  return fetch(url).then(function (response) {
+var searchMovie = function searchMovie(query) {
+  return fetch(url + query).then(function (response) {
     return response.json();
   }).then(function (data) {
-    return data;
+    return console.log(data);
   });
-};
+}; // const updateValue = (e) => setTimeout(searchMovie, 500);
 
+
+var requestTimer;
+input.addEventListener("input", function (e) {
+  clearTimeout(requestTimer);
+  requestTimer = setTimeout(function () {
+    return searchMovie(e.target.value);
+  }, 500);
+});
 module.exports = {
   input: input,
-  getValue: getValue,
   searchMovie: searchMovie
 };
 
