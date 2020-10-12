@@ -191,6 +191,7 @@ animate();
 var input = document.getElementById("search-input");
 var searchBtn = document.getElementById("search-btn");
 var searchContent = document.getElementById("content");
+var movieList = document.getElementById("movie-list");
 
 var expand = function expand() {
   searchBtn.classList.toggle("close");
@@ -202,18 +203,30 @@ var expand = function expand() {
 searchBtn.addEventListener("click", expand);
 var apiKey = "afc2df6ed2b105665b061dcc22c09716";
 var url = "https://api.themoviedb.org/3/search/movie?api_key=".concat(apiKey, "&query=");
+var searchResults;
 
 var searchMovie = function searchMovie(query) {
+  //clean li
+  while (movieList.firstChild) {
+    movieList.removeChild(movieList.firstChild);
+  } //fetch new movies
+
+
   return fetch(url + query).then(function (response) {
     return response.json();
   }).then(function (data) {
-    return console.log(data);
+    searchResults = data.results;
+    searchResults.map(function (result) {
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(result.title));
+      movieList.appendChild(li);
+    });
+    return data;
   });
-}; // const updateValue = (e) => setTimeout(searchMovie, 500);
-
+};
 
 var requestTimer;
-input.addEventListener("input", function (e) {
+var listenInput = input.addEventListener("input", function (e) {
   clearTimeout(requestTimer);
   requestTimer = setTimeout(function () {
     return searchMovie(e.target.value);
@@ -221,7 +234,8 @@ input.addEventListener("input", function (e) {
 });
 module.exports = {
   input: input,
-  searchMovie: searchMovie
+  searchMovie: searchMovie,
+  listenInput: listenInput
 };
 
 /***/ }),
