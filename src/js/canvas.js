@@ -1,8 +1,7 @@
 import utils from "./utils";
 import search from "./search";
 
-search.getValue();
-
+search.searchMovie().then((resp) => console.log(resp));
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
 

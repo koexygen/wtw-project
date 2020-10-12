@@ -41,7 +41,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="com.codota.intellij.common.configuration.CodotaConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +54,7 @@
       <updated>1602511869352</updated>
       <workItem from="1602511871593" duration="2230000" />
       <workItem from="1602514470852" duration="39000" />
-      <workItem from="1602514518613" duration="2586000" />
+      <workItem from="1602514518613" duration="4386000" />
     </task>
     <task id="LOCAL-00001" summary="basic stuff done, working on input values.">
       <created>1602516113217</created>
@@ -63,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602516113217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic stuff done, working on input values.">
+      <created>1602517611034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602517611034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added README.MD">
+      <created>1602517684001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602517684001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +104,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="basic stuff done, working on input values." />
-    <option name="LAST_COMMIT_MESSAGE" value="basic stuff done, working on input values." />
+    <MESSAGE value="added README.MD" />
+    <MESSAGE value="basic request done" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic request done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

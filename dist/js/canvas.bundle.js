@@ -107,7 +107,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
 
-_search__WEBPACK_IMPORTED_MODULE_1___default.a.getValue();
+_search__WEBPACK_IMPORTED_MODULE_1___default.a.searchMovie().then(function (resp) {
+  return console.log(resp);
+});
 var canvas = document.querySelector("canvas");
 var c = canvas.getContext("2d");
 canvas.width = innerWidth;
@@ -207,9 +209,22 @@ var updateValue = function updateValue(e) {
   return e.target.value;
 };
 
+var apiKey = "afc2df6ed2b105665b061dcc22c09716";
+var query = "deadpool";
+var url = "https://api.themoviedb.org/3/search/movie?api_key=".concat(apiKey, "&query=").concat(query);
+
+var searchMovie = function searchMovie() {
+  return fetch(url).then(function (response) {
+    return response.json();
+  }).then(function (data) {
+    return data;
+  });
+};
+
 module.exports = {
   input: input,
-  getValue: getValue
+  getValue: getValue,
+  searchMovie: searchMovie
 };
 
 /***/ }),
