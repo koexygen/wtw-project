@@ -1,7 +1,7 @@
 import utils from "./utils";
 import search from "./search";
 
-console.log(search.getValue());
+search.getValue();
 
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");

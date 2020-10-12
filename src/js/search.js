@@ -8,10 +8,10 @@ const expand = () => {
 
 searchBtn.addEventListener("click", expand);
 
-function getValue() {
+const getValue = () => {
   return input.addEventListener("input", updateValue);
-}
+};
 
-const updateValue = (e) => console.log(e.target.value);
+const updateValue = (e) => e.target.value;
 
 module.exports = { input, getValue };

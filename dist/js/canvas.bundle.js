@@ -107,7 +107,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
 
-console.log(_search__WEBPACK_IMPORTED_MODULE_1___default.a.getValue());
+_search__WEBPACK_IMPORTED_MODULE_1___default.a.getValue();
 var canvas = document.querySelector("canvas");
 var c = canvas.getContext("2d");
 canvas.width = innerWidth;
@@ -199,12 +199,12 @@ var expand = function expand() {
 
 searchBtn.addEventListener("click", expand);
 
-function getValue() {
+var getValue = function getValue() {
   return input.addEventListener("input", updateValue);
-}
+};
 
 var updateValue = function updateValue(e) {
-  return console.log(e.target.value);
+  return e.target.value;
 };
 
 module.exports = {

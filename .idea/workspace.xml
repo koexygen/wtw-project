@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc578697-5d49-4fa9-9a31-fd40bbd11b56" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wtw-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/canvas.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/canvas.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/canvas.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +54,16 @@
       <updated>1602511869352</updated>
       <workItem from="1602511871593" duration="2230000" />
       <workItem from="1602514470852" duration="39000" />
-      <workItem from="1602514518613" duration="1422000" />
+      <workItem from="1602514518613" duration="2586000" />
     </task>
+    <task id="LOCAL-00001" summary="basic stuff done, working on input values.">
+      <created>1602516113217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602516113217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="basic stuff done, working on input values." />
+    <option name="LAST_COMMIT_MESSAGE" value="basic stuff done, working on input values." />
   </component>
 </project>
