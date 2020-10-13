@@ -37,18 +37,33 @@ function draw() {
     edges: edges,
   };
   const options = {
+    physics: true,
     autoResize: true,
+    layout: {
+      improvedLayout: true,
+    },
     nodes: {
-      borderWidth: 4,
-      size: 30,
+      borderWidth: 2,
+      size: 60,
+      physics: true,
       color: {
         border: "#222222",
         background: "#666666",
       },
-      font: { color: "#eeeeee" },
+
+      font: "16px sans-serif #eeeeee",
+      shadow: true,
     },
     edges: {
       color: "lightgray",
+      physics: true,
+      shadow: true,
+      smooth: true,
+      length: 400,
+    },
+    interaction: {
+      zoomSpeed: 1,
+      zoomView: true,
     },
   };
   network = new vis.Network(container, data, options);
