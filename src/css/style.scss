@@ -1,7 +1,10 @@
-body {
+body,
+html {
   background-color: #23272a;
   color: #fff;
   margin: 0;
+  width: 100vw;
+  height: 100vh;
 
   #content {
     position: absolute;
@@ -15,6 +18,7 @@ body {
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+    z-index: 1;
   }
 }
 
@@ -149,4 +153,22 @@ input {
   -webkit-transform: translate(-100%, -50%);
   -ms-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
+}
+
+#mynetwork {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  div {
+    width: 100vw;
+    height: 100vh;
+  }
+  canvas {
+    width: 100vw;
+    height: 100vh;
+  }
+  canvas:focus {
+    outline: none;
+  }
 }

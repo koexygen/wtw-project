@@ -22,23 +22,7 @@ const searchMovie = (query) => {
   }
 
   //fetch new movies
-  return fetch(url + query)
-    .then((response) => response.json())
-    .then((data) => {
-      searchResults = data.results;
-      searchResults.map((result) => {
-        let li = document.createElement("li");
-        li.appendChild(document.createTextNode(result.title));
-        movieList.appendChild(li);
-      });
-      return data;
-    });
+  return fetch(url + query).then((response) => response.json());
 };
 
-let requestTimer;
-const listenInput = input.addEventListener("input", (e) => {
-  clearTimeout(requestTimer);
-  requestTimer = setTimeout(() => searchMovie(e.target.value), 300);
-});
-
-module.exports = { input, searchMovie, listenInput };
+module.exports = { input, searchMovie };

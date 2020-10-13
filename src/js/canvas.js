@@ -1,6 +1,7 @@
 import utils from "./utils";
 import search from "./search";
 import style from "../css/style.scss";
+import network from "./network";
 
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
